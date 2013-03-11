@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class TwoNums {
+
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner scan = new Scanner(System.in);
+		int number;
+		
+		System.out.println("Please enter a number");
+		System.out.println("and I will multiply it by 2");
+		
+		number = scan.nextInt()
+				doubleNumber();
+		
+		public static void doubleNumber(int value);
+
+
+
+	

@@ -1,0 +1,25 @@
+import java.util.Scanner;
+public class multiplyTwoNum {
+
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner s = new Scanner(System.in);
+		int number;
+		
+		System.out.println("Please enter a number");
+		System.out.println("and I will double that number for you");
+		
+		number = s.nextInt();
+		doubleNumber(number);
+	}
+	public static void doubleNumber(int value)
+	{
+	int result;
+	
+	result = value * 2;
+	
+	System.out.println(result);
+	}
+}

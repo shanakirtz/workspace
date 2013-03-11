@@ -1,0 +1,10 @@
+import java.util.*;
+
+public class multiplyTwoNum
+{
+	public static void main(String [] args)
+	{
+		
+	}
+}
+
