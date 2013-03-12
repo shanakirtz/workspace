@@ -25,17 +25,12 @@ public class ForMark {
 		number = scan.nextInt();
 		
 		if(number > 10)
-			System.out.println("righhhhttt on!");
+			System.out.println("Yay Punx");
 		else
 			System.out.println("Go listen to Social Distortion");
 		
-		System.out.println("Did we just become best friends?");
-		System.out.println("Enter 1 for yes and 2 for no");
-		
-		if(number == 1)
-			System.out.println("BFF4L");
-		else
-			System.out.println("okayyy :( ");
+				
+
 	}
 
 }
