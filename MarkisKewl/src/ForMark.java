@@ -1,0 +1,22 @@
+import java.util.*;
+public class ForMark {
+
+//This is for my bff
+	
+	public static void main(String[] args) {
+		int number;
+		String word;
+		
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.println("MARK, on a scale of 1-10, how cool is Shana?");
+		number = scan.nextInt();
+		
+		System.out.println("Use one word to describe Shana");
+		word = scan.next();
+		
+				
+
+	}
+
+}
