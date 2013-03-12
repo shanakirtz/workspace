@@ -25,7 +25,7 @@ public class ForMark {
 		number = scan.nextInt();
 		
 		if(number > 10)
-			System.out.println("Yay Punx");
+			System.out.println("\[][]/");
 		else
 			System.out.println("Go listen to Social Distortion");
 		
