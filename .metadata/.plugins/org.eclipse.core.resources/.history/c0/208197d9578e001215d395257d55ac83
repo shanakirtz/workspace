@@ -15,7 +15,7 @@ public class LargeToSmall {
 	 int large = number;
 	 int small = number;
 	 
-	
+	 System.out.println(large small);
 	 
 	 while (number != -99){
 		 System.out.println("Please enter another number");
@@ -26,10 +26,11 @@ public class LargeToSmall {
 	 
 	 if(number < small)
 		 small = number;
+	 
+	 
 
 	 
-	System.out.println(large);
-	
+		
 			 
 	 
 	 

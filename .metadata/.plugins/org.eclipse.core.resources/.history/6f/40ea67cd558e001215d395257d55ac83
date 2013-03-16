@@ -11,29 +11,18 @@ public class LargeToSmall {
 	 System.out.println("To end use -99");
 	 
 	  number = scan.nextInt();
-	  
-	 int large = number;
-	 int small = number;
-	 
-	
 	 
 	 while (number != -99){
 		 System.out.println("Please enter another number");
 	 number = scan.nextInt();
 	 
-	 if(number > large)
-		 large = number; 
+	 }
 	 
-	 if(number < small)
-		 small = number;
-
-	 
-	System.out.println(large);
-	
+		 
 			 
 	 
 	 
 
 	}
-	}
+
 }
