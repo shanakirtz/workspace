@@ -30,9 +30,8 @@ public class LargeToSmall {
 	
 
 	}
-	System.out.println(large);
-	System.out.println(small);
-	
+	 System.out.println(large);	 
+	 
 	 
 	}
 }
