@@ -4,7 +4,7 @@ public class Factorial {
 	
 	public static void main(String[] args) {
 		
-	;
+		
 		int number;
 		int total;
 		total=1;
@@ -13,10 +13,8 @@ public class Factorial {
 		System.out.println("Please enter a non negative integer");
 		number = scan.nextInt();
 		
-		for(int i =1; i <=number; i++)
-		total = total * i;
+		for(number =1; number <=number; number++ );
 		
-		System.out.println(total);
 		
 	}
 
