@@ -1,0 +1,35 @@
+import java.util.*;
+
+public class Options {
+
+	public static void main(String[] args) {
+		
+		Scanner scan = new Scanner(System.in);
+		Random rand = new Random();
+		int counter;
+		int number;
+		
+		
+		number = rand.nextInt(3);
+		
+		System.out.println(number);
+		while(number != 0)
+		if(number == 1){
+			System.out.println("Your journey begins in the forest");
+			System.out.println("enter 1 to take the trail");
+			System.out.println("enter 2 to travel amongst the shadows");
+		}
+		if(number == 2){
+			System.out.println("Your journey begins in a dungeon");
+			System.out.println("enter 1 to beg the gatekeeper to let you out");
+			System.out.println("enter 2 to try to pick the lock with pin");
+		}
+		if(number == 3){
+			System.out.println("Your journey begins in a castle");
+			System.out.println("enter 1 to go to the spell room");
+			System.out.println("enter 2 to leave the castle grounds without permission");
+		}
+		
+	}
+
+}

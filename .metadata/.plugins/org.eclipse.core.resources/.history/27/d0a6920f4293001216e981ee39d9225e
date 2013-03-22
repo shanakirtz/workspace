@@ -1,0 +1,49 @@
+import java.util.*;
+
+public class Options {
+
+	public static void main(String[] args) {
+		
+		Scanner scan = new Scanner(System.in);
+		Random rand = new Random();
+		
+		int number;
+		
+		
+		number = rand.nextInt(2);
+		
+		System.out.println(number);
+		
+			
+		if(number == 0){
+			System.out.println("Your journey begins in the forest");
+			System.out.println("enter 1 to take the trail");
+			System.out.println("enter 2 to travel amongst the shadows");
+				scan.nextInt();
+		if(number == 1){
+			System.out.println("You chose the to take the trail!");
+			System.out.println("As you walk you spy some elves.");
+			System.out.println("enter 1 to speak with the elves");
+			System.out.println("enter 2 to walk past the elves");
+		}
+		if(number == 2){
+			System.out.println("Very brave. You chose the shadows.");
+			System.out.println("You see a sparkling light on the ground a few feet away");
+			System.out.println("enter 1 to find out what the light is");
+			System.out.println("enter 2 to walk past");
+		}
+		}
+		if(number == 1){
+			System.out.println("Your journey begins in a dungeon");
+			System.out.println("enter 1 to beg the gatekeeper to let you out");
+			System.out.println("enter 2 to try to pick the lock with pin");
+		}
+		if(number == 2){
+			System.out.println("Your journey begins in a castle");
+			System.out.println("enter 1 to go to the spell room");
+			System.out.println("enter 2 to leave the castle grounds without permission");
+		}
+		
+	}
+
+}
