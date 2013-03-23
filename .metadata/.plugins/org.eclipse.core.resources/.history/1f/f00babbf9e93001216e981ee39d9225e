@@ -15,20 +15,20 @@ public class Options {
 		fate = rand.nextInt(3);
 		//System.out.println(fate);
 		
-			if(fate == 0)
+			if(fate == 0){
 				System.out.println("Now is the time. You must fight the dragon");
+				Battle();
+			}
 		
-			
-					
-				else if(fate == 1)
-		System.out.println("Evil elves! You must stop them");
-			
-			
-		
-				else if(fate == 2)
+			if(fate == 1){
+				System.out.println("Evil elves! You must stop them");
+				Battle();
+			}
+			if(fate == 2){
 				System.out.println("An evil wizard appears. You must destroy him");
 				Battle();
 			
+			}	
 	}
 			
 	public static void Battle(){
