@@ -18,42 +18,16 @@ public class Options {
 		
 			if(fate == 0){
 				System.out.println("Now is the time. You must fight the dragon");
-				Battle();
-				
 		}
 			if(fate == 1){
 				System.out.println("Evil elves! You must stop them");
-				Battle();
 				}
 			if(fate == 2){
-				System.out.println("An evil wizard appears. You must destroy him");
-				Battle();
-				
+				System.out.println("A wizard appears. He gives you magic potion");
 						}
 	}
 			
-		public static void Battle(){
 		
-		Scanner scan = new Scanner(System.in);
-		Random rand = new Random();
-		
-		int move;
-		int next;
-		move = rand.nextInt(2);
-		
-		System.out.println("Enter 1 to fight");
-		next = scan.nextInt();
-		
-		if(move == 0){
-			System.out.println("A sword appears, but how? You take it and win victoriously in battle");
-			}
-		if(move == 1){
-			System.out.println("You trip on stone out of fright and become injured. You fail");
-			}
-		if(move == 2){
-			System.out.println("A noble warrior comes to your aid in battle and helps you succeed");
-		}
-		}
 	
 	public static void main(String[] args) {
 		

@@ -18,17 +18,13 @@ public class Options {
 		
 			if(fate == 0){
 				System.out.println("Now is the time. You must fight the dragon");
-				Battle();
 				
 		}
 			if(fate == 1){
 				System.out.println("Evil elves! You must stop them");
-				Battle();
 				}
 			if(fate == 2){
 				System.out.println("An evil wizard appears. You must destroy him");
-				Battle();
-				
 						}
 	}
 			
