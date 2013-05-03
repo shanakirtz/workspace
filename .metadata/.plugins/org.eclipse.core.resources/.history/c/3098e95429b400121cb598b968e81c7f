@@ -155,7 +155,12 @@ public class Options {
 			total = total + num;
 			//System.out.print(num);
 			System.out.println(total);
-	
+				
+		if(num < MAX_VALUE)
+			System.out.println(" You have been revived");
+		
+			if(num > MAX_VALUE)
+				System.out.println(" Your power is not too good. unfortunate");
 			
 		}
 		
