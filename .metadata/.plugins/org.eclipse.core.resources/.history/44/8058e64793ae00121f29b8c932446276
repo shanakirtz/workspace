@@ -1,0 +1,17 @@
+import java.util.*;
+public class BugsFor {
+
+
+	public static void main(String[] args) {
+	
+	Scanner scan = new Scanner(System.in);
+	for(int i =0; i<8; i++)
+	{
+	System.out.println("please enter number of bugs today");
+	int bugs = scan.nextInt();
+	}
+
+
+	}
+
+}

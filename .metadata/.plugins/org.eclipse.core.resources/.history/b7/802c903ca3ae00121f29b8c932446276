@@ -1,0 +1,27 @@
+import java.util.*;
+public class NestedLOOPS {
+
+	
+	public static void main(String[] args) {
+	
+		Scanner scan = new Scanner(System.in);
+		int years;
+		int month=0;
+		int total =0;
+		int average;
+		
+		System.out.println("How many years are you collecting rain for?");
+		years = scan.nextInt();
+		for(int i = 0; i < 3; i++){
+		System.out.println("How much rainfall for this month?");
+		month = scan.nextInt();
+		total = total + month;
+		}
+		System.out.println("The number of months is " +  month);
+		System.out.println("The total rainfall for the year is " + total);
+		//System.out.println("The average rainfall per month is" + average);
+		
+	}
+	
+		
+}

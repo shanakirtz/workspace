@@ -1,0 +1,23 @@
+import java.util.*;
+
+public class RiseAgainst
+{
+	public static void main(String[] args)
+	{
+		Scanner scan = new Scanner(System.in);
+		int amount;
+		final int MAX_AMOUNT = 100;
+		
+		System.out.println("Please enter how much you spent today");
+		amount = scan.nextInt();
+		
+		while(amount < MAX_AMOUNT)
+		{
+			System.out.println("Good job for not spending a lot");
+			System.out.println("Enter friend's amount");
+			amount = scan.nextInt();
+		}
+			System.out.println("Amount is too high");
+	}
+}
+

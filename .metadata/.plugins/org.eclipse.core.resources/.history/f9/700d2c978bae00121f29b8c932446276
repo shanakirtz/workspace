@@ -1,0 +1,19 @@
+import java.util.*;
+
+public class WhileLoop {
+
+	public static void main(String[] args) {
+		int num = 0;
+		int product = num * 10;
+		final int MAX_VALUE = 100;
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.println("This program multiplies number by 10");
+		System.out.println("Enter a number");
+		num = scan.nextInt();
+		
+		while( num < MAX_VALUE)
+			num = product;
+		System.out.print(product);
+	}
+}

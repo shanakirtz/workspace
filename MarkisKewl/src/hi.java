@@ -13,7 +13,19 @@ public class hi {
 			System.out.println(":)");
 		else
 			System.out.println(":(");
+		fullName();
 		
 	}
 
+	public static void fullName()
+	{
+		String name;
+		
+		
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Hellow. Please enter your first and last name.");
+		name = scan.nextLine();
+		System.out.println(name);
+
+}
 }

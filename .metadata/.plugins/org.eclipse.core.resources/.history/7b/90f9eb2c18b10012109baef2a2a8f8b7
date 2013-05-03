@@ -1,0 +1,39 @@
+import java.util.*;
+
+public class Vehicles {
+	private String vehicle;
+	private String model;
+	private int year;
+	
+	public void setVehicle(String v)
+	{
+		vehicle = v;
+	}
+
+	public void setModel(String m)
+	{
+		model = m;
+	}
+
+	public void setYear(int y)
+	{
+		year = y;
+	}
+	
+	//Accessor methods getters
+	
+	public String getVehicle()
+	{
+		return vehicle;
+	}
+	
+	public String getModel()
+	{
+		return model;
+	}
+	
+	public int getYear()
+	{
+		return year;
+	}
+}

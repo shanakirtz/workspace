@@ -1,0 +1,53 @@
+// programming Exercise 1. Pet Class
+import java.util.*;
+public class Pet {
+
+	//Field Declarations
+	private String name;
+	private String type;
+	private int age;
+	
+	//Constructor
+	public Pet()
+	{
+		
+	}
+	
+	//Mutator methods
+	public void setName(String name)
+	{
+		 this.name = name;
+	}
+	
+	public void setType(String type)
+	{
+		this.type = type;
+	}
+	
+	public void setAge(int age)
+	{
+		this.age = age;
+	}
+	
+	//Accessor methods
+	
+	public String getName()
+	{
+		return name;
+	}
+	
+	public String getType()
+	{
+		return type;
+	}
+	
+	public int getAge()
+	{
+		return age;
+	}
+	
+	
+		
+		 
+	}
+

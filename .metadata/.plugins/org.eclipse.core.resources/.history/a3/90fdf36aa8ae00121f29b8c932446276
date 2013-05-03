@@ -1,0 +1,21 @@
+import java.util.*;
+public class NestedLoopAgain {
+
+	
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		int num;
+		for(int i =0; i <5; i++){
+			System.out.println("Please enter a number 1 - 9.");
+			num = scan.nextInt();
+				while(num > 9){
+					System.out.println("Error! Enter a new number");
+					num = scan.nextInt();
+				}
+				//System.out.println("keep going");
+				
+		}
+
+	}
+
+}

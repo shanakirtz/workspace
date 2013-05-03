@@ -1,0 +1,18 @@
+import java.util.*;
+public class PracticArr {
+
+	public static void main(String[] args) {
+		
+		Scanner scan = new Scanner(System.in);
+		int size;
+		double[] temperature = new double[25];
+		size = temperature.length;
+		int total = 0;
+		for(int i = 0; i < temperature.length; i++)
+			total = i + i;
+			System.out.println(temperature[i]);
+		
+
+	}
+
+}

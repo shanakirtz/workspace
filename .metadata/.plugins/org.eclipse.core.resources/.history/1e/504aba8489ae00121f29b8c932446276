@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class DoWhileLoop {
+
+
+	public static void main(String[] args) {
+		
+		
+		Scanner scan = new Scanner(System.in);
+		int age;
+		final int MAX_AGE = 39
+		do
+		{
+			System.out.println("What is your age");
+			age = scan.nextInt();
+		}
+		while(age < MAX_AGE );
+	}
+
+}

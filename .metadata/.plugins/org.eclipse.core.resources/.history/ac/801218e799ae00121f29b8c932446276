@@ -1,0 +1,30 @@
+import java.util.*;
+public class NestedLOOPS {
+
+	
+	public static void main(String[] args) {
+	
+		Scanner scan = new Scanner(System.in);
+		int numStudents;
+		int numTestScores;
+		int total;
+		int student;
+		int testNum;
+		double score;
+		double average;
+		
+		System.out.println("How many students do you have?");
+		numStudents = scan.nextInt();
+		
+		System.out.println("How many test scores per student?");
+		numTestScores = scan.nextInt();
+		
+		student = 1 + numStudents;
+		total = 0;
+		
+		System.out.println("Student number" + student);
+		
+	}
+	
+		
+}

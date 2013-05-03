@@ -1,0 +1,26 @@
+import java.util.*;
+public class Passing {
+
+
+
+
+	public static void main(String[] args) {
+		
+		System.out.println(getName());
+		
+	}
+		
+		public static String getName(){
+		
+		Scanner scan = new Scanner(System.in);
+		//Random rand = new Random();
+		//int num;
+		String name;
+		
+		System.out.println("Enter your name");
+		name = scan.nextLine();
+		return name;
+		}
+	}
+
+

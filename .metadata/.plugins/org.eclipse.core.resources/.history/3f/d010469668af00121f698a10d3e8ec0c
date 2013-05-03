@@ -1,0 +1,21 @@
+import java.util.*;
+public class Passing {
+
+static String name;
+
+	public static void main(String[] args) {
+		
+		setName("Shana");
+		System.out.println(getName());
+	}
+	
+	public static void setName(String passName){
+		name = passName;
+		
+	}
+	
+	public static String getName(){
+		return name;
+	}
+
+}

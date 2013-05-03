@@ -1,0 +1,27 @@
+
+public class ArtistRunner {
+
+	ArtistRunner()
+	{
+	}
+	public static void main(String[] args) {
+		
+		Artists a = new Artists("bandName", "songName" );
+		
+		
+		a.setBandName("RA");
+		a.toString();
+		System.out.println(a.toString());
+		
+		a.getBandName();
+		System.out.println(a.getBandName());
+		
+		a.setSongName("Heaven Knows");
+		a.toString();
+		System.out.println(a.toString());
+		
+		a.getSongName();
+		System.out.println(a.getSongName());
+	}
+
+}

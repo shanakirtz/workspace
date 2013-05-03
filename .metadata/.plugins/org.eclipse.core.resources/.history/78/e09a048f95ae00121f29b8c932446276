@@ -1,0 +1,23 @@
+import java.util.*;
+public class BugsFor {
+
+
+	public static void main(String[] args) {
+	
+		Scanner scan = new Scanner(System.in);
+		int add = 0;
+		System.out.println("Please enter number of days you will collect bugs");
+		int days = scan.nextInt();
+		
+		for(int i = 0; i < days; i++)
+		{
+			System.out.println("How many bugs did you collect today?");
+			int bugs = scan.nextInt();
+			add = i + bugs;
+			System.out.println(add);
+		}
+		
+	
+	}
+
+}
