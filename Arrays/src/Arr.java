@@ -5,9 +5,13 @@ public class Arr {
 	public static void main(String[] args) {
 		
 		String[] arr = new String[4];
-		System.out.println("You will marry " + (getName(arr)));
-		System.out.println("You will drive a " + (getCar(arr)));
-		System.out.println("You will live in a " + (getHome(arr)));
+		String name = getName(arr);
+		String car = getCar(arr);
+		String house = getHome(arr);
+		
+		System.out.println("You will marry " + name);
+		System.out.println("You will drive a " + car);
+		System.out.println("You will live in a " + house);
 	}
 	
 	private static String getCar(String[] arr) {

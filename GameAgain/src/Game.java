@@ -35,37 +35,22 @@ public class Game {
 				
 				if(result > 20){
 				System.out.println("You start your journey as a wizard");
-				dice();
+				Dice.rollDice();
 				}
 				if(result < 20){
 				System.out.println("You begin your journey as a hobbit");
-				dice();
+				Dice.rollDice();
 				}
 			
 				
 				
 			
 	}
-			private static void dice() {
-				
-					int fate;
-					Random rand = new Random();
-					//Scanner scan = newScanner(System.in);
-					System.out.println("The dice will roll");
-					fate = rand.nextInt(20);
-					System.out.println(fate);
-					
-					if(fate > 10){
-						System.out.println("Good job");
-					}
-					
-					if(fate < 10){
-						System.out.println("Not a good number");
-					}
+			
 		
 				}
 				
-			}
+			
 			
 
 

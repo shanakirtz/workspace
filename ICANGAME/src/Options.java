@@ -70,7 +70,6 @@ public class Options {
 				password = scan.nextLine();
 			if(password.equals("password"))
 					System.out.println("You have been granted passage over the bridge");
-
 			else
 				System.out.println("Wrong answer. The elves laugh at you");
 	
@@ -103,7 +102,6 @@ public class Options {
 						System.out.println("Very brave. You eat some strange mushrooms...");
 		
 				RollDice();
-				Power();
 		}
 		
 	
@@ -119,7 +117,6 @@ public class Options {
 					System.out.println("Success! You pick the lock while the guard was asleep.");
 			
 			RollDice();
-			Power();
 		}
 		if(number == 2){
 			System.out.println("Your journey begins in a castle");
@@ -134,32 +131,8 @@ public class Options {
 			
 			RollDice();
 			
-			Power();
-			
-		
-		}
-	}
 
-	private static void Power() {
-		
-		Scanner scan = new Scanner(System.in);
-		Random rand = new Random();
-		int num;
-		int total = 0;
-		final int MAX_VALUE = 10;
-		
-		
-		System.out.println("The next  number will be your power");
-		for(int c = 0; c < 2; c++){
-			num = rand.nextInt(10);
-			total = total + num;
-			//System.out.print(num);
-			System.out.println(total);
-	
-			
-		}
-		
-		
+	}
 	}
 }
 		
